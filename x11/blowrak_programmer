@@ -1,0 +1,113 @@
+// whatever
+
+
+// Blowrak for swedish
+partial default alphanumeric_keys
+xkb_symbols "blowrak" {
+
+    name[Group1]="Blowrak - swedish";
+
+    include "se(basic)"
+
+    key <AD01> { [     aring,      Aring,    braceleft,  bracketleft ]	};
+    key <AD02> { [  adiaeresis,	Adiaeresis,        bar,    backslash ]	};
+    key <AD03> { [ odiaeresis, Odiaeresis,  braceright, bracketright ]	};
+    key <AD04> { [         p,          P,   asciitilde,        THORN ]	};
+    key <AD05> { [         y,          Y,    leftarrow,          yen ]	};
+    key <AD06> { [         f,          F,      dstroke,  ordfeminine ]	};
+    key <AD07> { [         g,          G,          eng,          ENG ]	};
+    key <AD08> { [         c,          C,    copyright,    copyright ]	};
+    key <AD09> { [         r,          R,   registered,   registered ]	};
+    key <AD10> { [         l,          L,      lstroke,      Lstroke ]	};
+    key <AD11> { [     comma,  semicolon, dead_cedilla,  dead_ogonek ]	};
+    key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum	]	};
+
+    key <AC01> { [         a,          A,   bracketleft,           AE ]	};
+    key <AC02> { [         o,          O,     backslash,           OE ]	};
+    key <AC03> { [         e,          E,  bracketright,         cent ]	};
+    key <AC04> { [         u,          U,   asciicircum,      uparrow ]	};
+    key <AC05> { [         i,          I,   rightarrow,     idotless ]	};
+    key <AC06> { [         h,          H,      hstroke,      Hstroke ]	};
+    key <AC07> { [         d,          D,          eth,          ETH ]	};
+    key <AC08> { [         t,          T,       tslash,       Tslash ]	};
+    key <AC09> { [         n,          N ]	};
+    key <AC10> { [         s,          S,       ssharp,      section ]	};
+    key <AC11> { [     minus, underscore, dead_belowdot, dead_abovedot ] };
+
+    key <AB01> { [    period,   colon, periodcentered, dead_abovedot ]	};
+    key <AB02> { [         q,          Q,           at,  Greek_OMEGA ]	};
+    key <AB03> { [         j,          J ]	};
+    key <AB04> { [         k,          K,          kra,    ampersand ]	};
+    key <AB05> { [         b,          B, rightdoublequotemark, apostrophe ] };
+    key <AB06> { [         x,          X, guillemotright,    greater ]	};
+    key <AB07> { [         m,          M,           mu,    masculine ]	};
+    key <AB08> { [         w,          W,      lstroke,      Lstroke ]	};
+    key <AB09> { [         v,          V, leftdoublequotemark, grave ]	};
+    key <AB10> { [         z,          Z, guillemotleft,        less ]	};
+};
+
+
+
+// Blowrak for swedish
+partial alphanumeric_keys
+xkb_symbols "blowrakprogram" {
+
+    name[Group1]="Blowrak Programmer";
+
+    include "se(basic)"
+
+    key <TLDE> { [ dollar, asciitilde, none, none ] };
+
+    key <AE01>  { [ ampersand, percent, none, none ] };
+    key <AE02>  { [ bracketleft, 1, none, none ] };
+    key <AE03>  { [ braceleft, 2, none, none ] };
+    key <AE04>  { [ braceright, 3, none, none ] };
+    key <AE05>  { [ parenleft, 4, none, none ] };
+    key <AE06>  { [ equal, 5, none, none ] };
+    key <AE07>  { [ asterisk, 6, none, none ] };
+    key <AE08>  { [ parenright, 7, none, none ] };
+    key <AE09>  { [ plus, 8, none, none ] };
+    key <AE10>  { [ bracketright, 9, none, none ] };
+    key <AE11>  { [ exclam, 0, none, none ] };
+    key <AE12>  { [ numbersign, grave, none, none ] };
+
+    key <AD01> { [ semicolon, colon, aring, Aring ] };
+    key <AD02> { [ comma, less, adiaeresis, Adiaeresis ] };
+    key <AD03> { [ period, greater, odiaeresis, Odiaeresis ] };
+    key <AD04> { [ p, P, none, none ] };
+    key <AD05> { [ y, Y, none, none ] };
+    key <AD06> { [ f, F, none, none ] };
+    key <AD07> { [ g, G, none, none ] };
+    key <AD08> { [ c, C, none, none ] };
+    key <AD09> { [ r, R, none, none ] };
+    key <AD10> { [ l, L, none, none ] };
+    key <AD11> { [ slash,  question, none, none ] };
+    key <AD12> { [ at, asciicircum, none, none ] };
+
+    key <AC01> { [ a, A, none, none ] };
+    key <AC02> { [ o, O, none, none ] };
+    key <AC03> { [ e, E, none, none ] };
+    key <AC04> { [ u, U, none, none ] };
+    key <AC05> { [ i, I, none, none ] };
+    key <AC06> { [ h, H, none, none ] };
+    key <AC07> { [ d, D, none, none ] };
+    key <AC08> { [ t, T, none, none ] };
+    key <AC09> { [ n, N, none, none ] };
+    key <AC10> { [ s, S, none, none ] };
+    key <AC11> { [ minus, underscore, none, none ] };
+    key <AC12> { [ backslash, bar, none, none ] };
+
+    key <AB01> { [ apostrophe, quotedbl, none, none ] };
+    key <AB02> { [ q, Q, none, none ] };
+    key <AB03> { [ j, J, none, none ] };
+    key <AB04> { [ k, K, none, none ] };
+    key <AB05> { [ b, B, none, none ] };
+    key <AB06> { [ x, X, none, none ] };
+    key <AB07> { [ m, M, none, none ] };
+    key <AB08> { [ w, W, none, none ] };
+    key <AB09> { [ v, V, none, none ] };
+    key <AB10> { [ z, Z, none, none ] };
+
+    key <BKSL> { [ backslash, bar, none, none ] };
+    key <LSGT> { [ none, none, none, none ] };
+};
