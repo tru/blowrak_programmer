@@ -1,8 +1,8 @@
 # The blowrak programmer keyboard layout.
 
-This is my customized (blowrak)[https://github.com/wanders/blowrak] keyboard
-layout to better suite a programmer. This is very inspired by the (Programmer
-dvorak layout)[https://www.kaufmann.no/roland/dvorak/].
+This is my customized [blowrak](https://github.com/wanders/blowrak) keyboard
+layout to better suite a programmer. This is very inspired by the [Programmer
+dvorak layout](https://www.kaufmann.no/roland/dvorak/).
 
 ![layout](https://raw.githubusercontent.com/tru/blowrak_programmer/master/blowrak_programmer.png)
 
@@ -10,7 +10,7 @@ dvorak layout)[https://www.kaufmann.no/roland/dvorak/].
 
 When I decided to switch to Dvorak a long time ago I actually switched to a
 modified version of dvorak that was made by my friend
-(Anders)[https://github.com/wanders]. The modifications to dvorak made by him
+[Anders](https://github.com/wanders). The modifications to dvorak made by him
 was to accommodate for the trackpoint on the thinkpads. Mainly switching place
 of `h` and `d`, `x` and `m` and adding the Swedish extra characters `åäö`.
 
@@ -40,6 +40,6 @@ the `{}` are not. We will see if I change that in the future.
 * macOS keyboard layout file. Just drop it in `~/Library/Keyboard Layouts`
 * xkb symbol file for x11. Drop it in `/usr/share/X11/xkb/symbols` and then you
   need to edit `rules/evdev.xml` for it to show up globally.
-* Windows KbdEdit file. You need (KbdEdit)[http://www.kbdedit.com/] in order to
+* Windows KbdEdit file. You need [KbdEdit](http://www.kbdedit.com/) in order to
   install this. There might be a better way to do this on windows, but I haven't
   found it yet.
